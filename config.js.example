@@ -4,14 +4,10 @@ var modes = [
 ];
 
 var sites = [
-  { id: "bcd", name: "Burscheid" },
-  { id: "bgl", name: "Bergisch Gladbach" },
-  { id: "gek", name: "Gelsenkirchen" },
-  { id: "kut", name: "Kürten" },
-  { id: "lln", name: "Leichlingen" },
-  { id: "ode", name: "Odenthal" },
-  { id: "ovr", name: "Overath" },
-  { id: "rrh", name: "Rösrath" },
+  { id: "rsk", name: "Rhein-Sieg-Kreis" },
+  { id: "sbg", name: "Stadt Siegburg" },
+  { id: "sta", name: "Stadt Sankt Augustin" },
+  { id: "lmr", name: "Stadt Lohmar" },
 ];
 
 //router list for gluon v2015.1
