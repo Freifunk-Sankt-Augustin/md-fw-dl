@@ -87,4 +87,4 @@ var routers = [
   { id: "ubiquiti-unifiap-outdoor", name: "UniFi AP Outdoor", manufacturer: "Ubiquiti" }
 ];
 
-var version = { id: "0.7.0-20150522", shortname: "0.7.0", url: "http://images.ff.petabyteboy.de/{{selectedSite}}/stable/{{selectedMode}}/gluon-ffgl-{{selectedSite=='gek' ? 'gek-0.7.0-20150615' : selectedSite+'-'+version.id}}-{{selectedRouter}}{{selectedMode=='sysupgrade'?'-sysupgrade.':'.'}}{{splitString(selectedRouter,7)=='netgear' && selectedMode=='factory' ? 'img' : 'bin'}}" }
+var version = { id: "0.7.0-20150522", shortname: "0.7.0", url: "http://images.freifunk-sankt-augustin.de/{{selectedSite}}/stable/{{selectedMode}}/gluon-ffsu-{{selectedSite=='rsk' ? 'rsk-0.7.0-20150615' : selectedSite+'-'+version.id}}-{{selectedRouter}}{{selectedMode=='sysupgrade'?'-sysupgrade.':'.'}}{{splitString(selectedRouter,7)=='netgear' && selectedMode=='factory' ? 'img' : 'bin'}}" }
